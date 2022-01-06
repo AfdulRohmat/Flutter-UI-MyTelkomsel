@@ -1,0 +1,32 @@
+name: flutuer_ui_my_telkomsel
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  google_fonts: ^2.2.0
+  font_awesome_flutter: ^9.2.0
+  flutter_custom_clippers: ^2.0.0
+  gradients: ^0.1.1+1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/icons/
+    - assets/icons/bottomNav/
+
+
